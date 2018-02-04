@@ -11,8 +11,13 @@ export default new Router({
       component: require('@/components/LandingPage').default
     },
     {
-      path: '*',
-      redirect: '/'
+      path: '/welcome',
+      name: 'welcome-page',
+      component: require('@/components/WelcomePage').default
     }
+    // {
+    //   path: '*',
+    //   redirect: '/'
+    // }
   ]
 })

@@ -62,6 +62,7 @@
     "vue-electron": "^1.0.6",
     "vue-pusher": "^0.2.1",
     "vue-router": "^2.5.3",
+    "vue-stripe": "^0.1.52",
     "vuex": "^2.3.1"
   },
   "devDependencies": {
