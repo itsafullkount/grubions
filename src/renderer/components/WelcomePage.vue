@@ -5,8 +5,13 @@
 </template>
 
 <script>
+  import Vue from 'vue'
+
   export default {
-    name: 'welcome-page'
+    name: 'welcome-page',
+    created: function () {
+      console.log(Vue.db)
+    }
   }
 </script>
 
